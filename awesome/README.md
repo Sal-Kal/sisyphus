@@ -17,4 +17,6 @@ This configuration sets `kitty` launched with `tmux` as your default terminal. I
 terminal = "kitty tmux -u"
 ```
 Replace `kitty tmux -u` with your preferred terminal command.
+## Applying the configuration
+To apply these configurations, place the `awesome` directory from the root of this Git repository into `~/.config/`.
 
