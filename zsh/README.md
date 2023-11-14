@@ -5,6 +5,14 @@
 
 ### 1. Oh My Zsh
 [Oh My Zsh](https://ohmyz.sh/) is a framework for managing Zsh configurations and plugins, enhancing the Zsh shell experience with themes, plugins, and productivity tools.
+Installation via `curl`:
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+Installation via `wget`:
+```
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
 
 ### 2. Powerlevel10k
 [Powerlevel10k](https://github.com/romkatv/powerlevel10k) is a highly customizable and fast Zsh theme for prompt configuration, offering extensive visual features and performance optimizations.
